@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(152, 179, 179);
+}
+
+h1 {
+  color: rgb(110, 110, 110);
+}
+
+.tittle {
+  margin-top: 1em;
+}
+
+.card {
+  margin-top: 4em;
+}
+
+.card-text {
+  font-family: cursive;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.btn {
+  margin-top: 2em;
+}
