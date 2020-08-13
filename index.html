@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- load bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- load font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <title>Random Quote Generator</title>
+  </head>
+
+  <body>
+    <!-- bootstrap main container -->
+    <div class="container-fluid">
+      <!-- Header -->
+      <div class="tittle container-sm text-center">
+        <h1>Random Inspirational Quotes</h1>
+        <p><em>A Free Code Camp Challenge</em></p>
+      </div>
+
+      <!-- quote card -->
+      <div class="container-sm text-center">
+        <div class="card">
+          <div class="card-body" id="quote-box">
+            <p class="card-text" id="text">
+              There should be a quote here...
+            </p>
+            <h5 class="card-subtitle mb-2 text-muted" id="author">
+              Name of the author.
+            </h5>
+
+            <a href="#" class="btn btn-primary" id="tweet-quote" target="_blank"
+              ><i class="fab fa-twitter"></i> Tweet this quote</a
+            >
+            <a
+              href="#"
+              class="btn btn-primary"
+              id="new-quote"
+              onclick="getQuote()"
+              ><i class="fas fa-sync"></i> One more quote please!</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- wiki link -->
+      <div class="container-sm text-center">
+        <a href="#" class="btn btn-secondary" id="wiki" target="_blank"
+          >Learn more about the Author on Wikipedia</a
+        >
+      </div>
+
+      <!-- my scripts -->
+      <script src="scripts.js"></script>
+      <!-- scripts for bootstrap -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
